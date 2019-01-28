@@ -1,8 +1,8 @@
 <?php
     $db['db_host'] = "localhost";
-    $db['db_user'] = "rajiv";
-    $db['db_pass'] = "tweet@twit";
-    $db['db_name'] = "cms";
+    $db['db_user'] = username;
+    $db['db_pass'] = password;
+    $db['db_name'] = database_name;
     
     foreach($db as $key => $value){
         define(strtoupper($key),$value);
